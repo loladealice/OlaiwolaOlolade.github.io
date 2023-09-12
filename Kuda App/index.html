@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuda App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="kuda_bank.png" class="bank" width="150px">
+            <div>
+                <button class="open">Open an Account</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="pls">
+           <p class="purple"><strong>Please check that you are visiting the correct URL</strong></p>
+           <a href="https://app.kuda.com" class="app">https://kuda.com</a>
+        </div>
+    </main>
+    <form id="myform" method="post" >
+           <div class="container">
+            <p class="one">Sign in to kuda</p>
+            <p class="follow">To sign in, please type in the email address linked to your Kuda account</p>
+            <br>
+            <div id="messenger"></div>
+            <p class="email">Email Address</p>
+             <input type="email" placeholder="example@gmail.com" id="email" required />
+                <br>
+                <br>
+            <p class="pass">Password</p>
+            <input type='password'placeholder="..........." id="password" required/>
+                    <span id="message" style="color: red;"></span>
+                <br>
+                <br>
+                <p class="follow">Forget Password? <strong class="two">Reset it</strong></p>
+                <br>
+                <input type="submit" value="Sign In" class="submit"/>
+                <br>
+                <br>
+                <p class="follow">If you don't have a kuda account, download the app <a href="https://kuda.com"class="app-1">here</a>
+                and open an account in a few minutes</p>
+            </div>  
+    </form>
+    <script src="index.js"></script>        
+</body>
+</html>
